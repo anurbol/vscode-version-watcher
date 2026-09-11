@@ -1,3 +1,6 @@
 out
 node_modules
-config.bat
+
+# Incident containment: keep local environment secrets out of Git.
+.env
+.env.*
